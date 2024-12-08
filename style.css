@@ -1,0 +1,117 @@
+main{
+    background-color: gray;
+}
+.subscribe-button{
+  display: flex;
+  justify-content:right ;
+  
+ background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
+}
+
+
+.subscribe-button:hover {
+    background-color: #6200cc;
+    transform: scale(1.05); 
+
+}
+
+.shapes {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+  }
+
+  .triangle {
+    width: 10px;
+    height: 10px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid black; 
+    margin-right: 5px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: black; 
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  
+  .rectangle {
+    width: 20px;
+    height: 20px;
+    background-color: black; 
+  }
+
+  .logo-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+
+  header{
+    background-color: blueviolet;
+    color: azure;
+  }
+  
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+}
+
+nav ul li a.active {
+    background-color: blue;
+    color: white;
+}
+
+
+.article-vedette {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+
+#Analyste{
+  border-radius: 50%;
+  
+}
+
+
+#legende{
+  border-radius: 50%;
+}
+
+body {
+  background-color: greenyellow;
+}
+  

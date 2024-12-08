@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Webmag</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Début HTML -->
+   
+   <nav id="nav">
+      <div id="groupes-container"></div>
+
+      <!-- Début section de la navigation avec logo et éléments graphiques -->
+      
+      <div class="logo">
+         <img src="./images/logo.svg"> 
+         <div class="shapes">
+            <div class="triangle"></div>
+            <div class="circle"></div>
+            <div class="rectangle"></div>
+         </div>
+         <span class="logo-text">nomJournal</span>
+      </div>
+
+      <ul>
+         
+      </ul>
+      
+      <button class="subscribe-button">s'abonner</button>
+      
+   </nav>
+
+   <nav class="navbar">
+      <br>
+      <!-- Boutons  groupe de la qualification de la CAN 2025 -->
+      <button id="GroupeAbouton">Groupe A</button>
+      <button id="GroupeBbouton">Groupe B</button>
+      <button id="GroupeCbouton">Groupe C</button>
+      <button id="GroupeDbouton">Groupe D</button>
+      <button id="GroupeEbouton">Groupe E</button>
+      <button id="GroupeFbouton">Groupe F</button>
+      <button id="GroupeGbouton">Groupe G</button>
+      <button id="GroupeHbouton">Groupe H</button>
+      <button id="GroupeIbouton">Groupe I</button>
+      <button id="GroupeJbouton">Groupe J</button>
+      <button id="GroupeKbouton">Groupe K</button>
+      <button id="GroupeLbouton">Groupe L</button>
+      
+      <p id="info-text">Sélectionnez un groupe pour plus d'infos.</p>
+   </nav>
+
+   <header id="header">
+      <h1 id="titre"></h1> 
+      <h2 id="resume"></h2> 
+      <p id="datePublication"></p> 
+      <!-- Structure d'entête pour inclure potentiellement d'autres sections -->
+      <!--
+      <h1>Phrase d'accroche</h1>
+      <div>
+         <div>
+            <h3>Thème 1</h3>
+            <p>Découvrez les équipes les plus prometteuses et les joueurs à suivre lors de cette édition</p>
+         </div>
+         <div>
+            <h3>Thème 2</h3>
+            <p>Découvrez les équipes les plus prometteuses et les joueurs à suivre lors de cette édition</p>
+         </div>
+         <div>
+            <h3>Thème 3</h3>
+            <p>Découvrez les équipes les plus prometteuses et les joueurs à suivre lors de cette édition</p>
+         </div>
+         <div>
+            <h3>Thème 4</h3>
+            <p>Découvrez les équipes les plus prometteuses et les joueurs à suivre lors de cette édition</p>
+         </div>
+      </div> 
+      
+      !-->
+
+   </header>
+
+   <main>
+      <h1>Toute l'actualité des éliminatoires de la CAN et de la CAN dans un futur proche</h1>
+      <section id="experts-section">
+         <h2>Nos Experts</h2>
+        
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGWYq5KE60E-TwgIp57jVCe2_Tv6UaFWAWw&s" id="Analyste" alt="" width="300"> 
+         <div id="experts-container"></div>
+      </section>
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQBm19hNCpKUe3MOYvMC6hHs0ZlRwVOsYn7Q&s" id="legende" alt="" width="300">
+      <br><br>
+   </main>
+
+   <h3>Les matchs incontournables de la phase de groupes des qualifications de la CAN 2025</h3>
+   <h2>Calendrier et rencontres</h2>
+   <h1>Voici les résumés</h1>
+   <h2>Sénégal</h2>
+   <h4>2024-2025</h4>
+
+   <div class="Senegal">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.qGChEtX5JMh0K6xI0hDi4gHaJk&pid=Api" alt="Match Sénégal vs Burkina Faso" width="300">
+   
+         Le Sénégal respecte son titre de l'un des plus grands favoris en se qualifiant en étant premier pour la CAN 2025 qui se tiendra au Maroc.
+      </p>
+   </div>
+  
+   
+   <!-- Pour faire du js sur mon code html pour que les boutons marche et fonctionne avec un message d'alerte car c'est plus simple a comprendre pour moi -->
+   <script>     
+      
+      document.getElementById('GroupeAbouton').addEventListener('click', function() {
+         alert('Comores : 12 pts\ Tunisie : 10 pts\ Gambie : 8 pts\ Madagascar : 2 pts');
+      });
+      document.getElementById('GroupeBbouton').addEventListener('click', function() {
+         alert('Maroc : 18 pts\ Gabon : 10 pts \ Leshoto : 4 pts\ RepubliqueCentrafrique : 3 pts');
+      });
+      document.getElementById('GroupeCbouton').addEventListener('click', function() {
+         alert('Egypte : 14 pts\ Bostwana : 8 pts\ Mauritanie : 7 pts\ Cap Vert : 3 pts ');
+      });
+
+      document.getElementById('GroupeDbouton').addEventListener('click', function() {
+        alert('Nigeria : 11 pts\ Bénin : 8 pts\ Rwanda : 7 pts\ Lybie : 5 pts ');
+      });
+      document.getElementById('GroupeEbouton').addEventListener('click', function() {
+        alert('Algerie : 16 pts\ Guinée Equatoriale : 8 pts\ Rwanda : 7 pts\ Lybie : 5 pts ');
+      });
+      document.getElementById('GroupeFbouton').addEventListener('click', function() {
+        alert('Angola: 14 pts\ Soudan : 8 pts\ Niger: 7 pts\ Ghana : 5 pts ');
+      });
+      document.getElementById('GroupeGbouton').addEventListener('click', function() {
+        alert('Zambie: 14 pts\ Cote divoire : 13 pts\ Sierra leone: 5 pts\ Tchad: 3 pts ');
+
+      });
+      document.getElementById('GroupeHbouton').addEventListener('click', function() {
+        alert('RDC: 12 pts\ Tanzanie : 10 pts\ Guinée: 9pts\ Ethiopie : 4 pts ');
+
+      });
+      document.getElementById('GroupeIbouton').addEventListener('click', function() {
+        alert('Mali: 14 pts\ Mozambique : 10 pts\ guinée bissau: 5 pts\ Eswatini : 2 pts ');
+      });
+      document.getElementById('GroupeJbouton').addEventListener('click', function() {
+        alert('Cameroun: 14 pts\ Zimbabwe : 8 pts\ Kenya: 7 pts\ Namibie : 2 pts ');
+      });
+      document.getElementById('GroupeKbouton').addEventListener('click', function() {
+        alert('Afrique du sud: 14 pts\ Ouganda : 13 pts\ Congo: 7 pts\ Soudan du sud: 5 pts ');
+      });
+      document.getElementById('GroupeLbouton').addEventListener('click', function() {
+        alert('Senegal: 16 pts\ Burkina faso : 13 pts\ Burundi: 4 pts\ Ghana : 4  pts ');
+      });
+
+   </script>
+   <script src="script.js"></script>
+</body>
+</html>
